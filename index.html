@@ -46,11 +46,10 @@
         submitBtn.addEventListener('click', () => {
           searchGoogle();
         });
-      }
-
-      window.document.onkeydown = (event) => {
-        if (event.key === 'Enter') {
-          searchGoogle();
+        window.document.onkeydown = (event) => {
+          if (event.key === 'Enter') {
+            searchGoogle();
+          }
         }
       }
 
